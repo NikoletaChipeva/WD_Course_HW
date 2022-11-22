@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+
+
+<form action="/Registrationform.php" method="GET">
+    <fieldset>
+        <legend>Personal information</legend>
+            <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" autofocus placeholder="First name latin"><br>
+            <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Last name latin"><br>
+        <div>Gender:
+            <label for="Man">Man</label>
+                <input type="radio" id="Man" name="Gender" value="Man:">
+            <label for="Women">Women</label>
+                <input type="radio" id="Women" name="Gender" value="Women:"></div>
+    </fieldset>
+<div><label for="Comment">Comment</label> <br>
+    <textarea name="Comment" id="Comment" cols="30" rows="10" placeholder="Say something"></textarea>
+</div>
+<div><input type="submit" value="Submit"></div>
+</form>
+
+</body>
+</html>
