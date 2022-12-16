@@ -1,0 +1,27 @@
+div {
+    border: solid lightgray 6px;
+    width: 800px
+}
+
+h2 {
+    color:#5E6F7D;
+    text-align: center;
+}
+
+p {
+    height: 40px;
+    text-align: left;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.dark {
+    background-color: #41484E;
+    color:#DDD;
+}
+
+.grey {
+    background-color: #5E6F7D;
+    color:#EEE;
+}
+
